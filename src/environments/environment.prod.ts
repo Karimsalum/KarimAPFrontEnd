@@ -1,4 +1,4 @@
-export const environment = {
- production: true,
- URL: 'https://karasaapp.herokuapp.com/'
-};
+//export const environment = {
+ // production: true,
+ // URL: 'https://karasaapp.herokuapp.com/'
+//};
