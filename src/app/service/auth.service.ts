@@ -10,7 +10,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = 'https://karasaapp.herokuapp.com/' + 'auth/';
+  URL = 'https://karasaapp.herokuapp.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
