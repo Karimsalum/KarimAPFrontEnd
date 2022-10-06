@@ -23,6 +23,7 @@ import { NeweducacionComponent } from './components/educacion/neweducacion.compo
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
+import { interceptorProvider } from './service/interceptor.service';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,9 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
     FormsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
+  ],
+  providers: [
+    interceptorProvider
   ],
   bootstrap: [AppComponent]
 })
