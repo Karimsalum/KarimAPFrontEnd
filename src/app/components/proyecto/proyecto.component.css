@@ -1,5 +1,5 @@
 .row{
-    padding: 20px;
+    text-align: center;
     background-color: #90cbf0;
 }
 .contenedor{
@@ -11,4 +11,8 @@
 }
 .img-proyecto{
     box-shadow:20px 20px 20px #2155cd;
+}
+.t-stroke-shadow {
+    color: #2155cd;
+    text-shadow: -3px 3px rgb(234, 243, 248)
 }
