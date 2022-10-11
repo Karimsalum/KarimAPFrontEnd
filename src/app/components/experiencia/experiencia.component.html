@@ -7,14 +7,13 @@
             Nueva Experiencia
         </button>
     </div>
-
     <div class="col lg 1"></div>
     <div class="col-lg-11">
         <table class="table">
             <tbody>
                 <tr *ngFor="let Experiencia of expe">
                     <td>
-                        <h6>{{Experiencia.nombreE}}</h6>
+                        <h4>{{Experiencia.nombreE}}</h4>
                     </td>
                     <td>{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged">
@@ -29,5 +28,4 @@
             </tbody>
         </table>
     </div>
-
 </div>
