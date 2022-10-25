@@ -1,5 +1,6 @@
 .row{
     text-align: center;
+    background: #90cbf0;
 }
 div{
     background: #90cbf0;
@@ -11,4 +12,7 @@ h2, h3{
 .t-stroke-shadow {
     color: #2155cd;
     text-shadow: -3px 3px rgb(234, 243, 248)
+}
+.bg-2{
+    background: #90cbf0;
 }
