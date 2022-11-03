@@ -1,11 +1,12 @@
 <div class="div-1">
-<button type="button" class="btn btn-primary" routerLink="/editacercade/id" *ngIf="isLogged">
+<!-- <button type="button" class="btn btn-primary" routerLink="/editacercade/id" *ngIf="isLogged">
     Editar persona
-</button>
+</button> -->
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src={{persona.img}} class="img-fluid" id="fotodeperfil">
+        <img src="../../../assets/CVce.jpg" class="img-fluid" id="fotodeperfil">
+        <!-- <img src={{persona.img}} class="img-fluid" id="fotodeperfil"> -->
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="nombre"> {{persona.nombre}} {{persona.apellido}}</p>
@@ -14,7 +15,8 @@
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
         <span>
             <h1>Acerca de mi</h1>
-            <p>{{persona.descripcion}}
+            <p> 27 años. Docente de informatica de nivel secundario. Estudiante.
+            <!-- <p>{{persona.descripcion}} -->
             </p>
         </span>
     </div>
