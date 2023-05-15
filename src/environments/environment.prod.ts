@@ -9,5 +9,6 @@ export const environment = {
   },
  production: true,
  //URL: 'https://karimrafaelsalum.herokuapp.com/'
- URL: 'https://karimrafaelsalumap.herokuapp.com/'
+ //URL: 'https://karimrafaelsalumap.herokuapp.com/'
+ URL: 'https://karimbkd.onrender.com'
 };
